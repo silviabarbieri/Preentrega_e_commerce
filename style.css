@@ -1,3 +1,80 @@
+
+
+h1{
+    color: blueviolet;
+    text-align: center;
+    margin: 30px;
+}
 .enviar{
     color: blue;
+}
+
+ul{
+list-style-type: none;
+color:brown;
+display: flex;
+justify-content: space-evenly
+}
+
+.inicio{
+text-decoration: none;
+color:brown;
+}
+.ofertas{
+    text-decoration: none;
+    color: brown;
+}
+.productos{
+    text-decoration: none;
+    color: brown;
+}
+.contacto{
+text-decoration: none;
+color:brown;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.zapatillas{
+    width: 1200px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+    grid-gap: 5%;
+}
+.zapatilla_1 {
+    padding-left: 60px;
+    border: solid;
+    border-radius: 5%;
+    padding-right: 30%;
+    padding-bottom: 5%;
+    text-align: center;
+} 
+.zapatilla_2{
+    padding-left: 60px;
+    border: solid;   
+}
+.zapatilla_3{
+    padding-left: 60px;
+    border: solid;
+}
+.zapatilla_4{
+    padding-left: 60px;
+    border: solid;
+}
+.zapatilla_5{
+    padding-left: 60px;
+    border: solid;
+}
+.zapatilla_6{
+padding-left: 60px;
+    border: solid;
+}    
+    footer{
+    text-align: center;
+    margin-top: 50px;
 }
