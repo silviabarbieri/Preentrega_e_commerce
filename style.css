@@ -1,6 +1,12 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Permanent+Marker&display=swap');
+
+*{
+    font-family: "Didact Gothic", sans-serif;
+}
 
 h1{
+    font-family: "Permanent Marker", cursive;
     color: blueviolet;
     text-align: center;
     margin: 30px;
@@ -11,30 +17,43 @@ h1{
 
 ul{
 list-style-type: none;
-color:brown;
 display: flex;
 justify-content: space-evenly
 }
 
 .inicio{
-text-decoration: none;
-color:brown;
+   text-decoration: none;
+   color:brown;
+   font-size: 20px;
 }
 .ofertas{
     text-decoration: none;
     color: brown;
+    font-size: 20px;
 }
 .productos{
     text-decoration: none;
     color: brown;
+    font-size: 20px;
 }
 .contacto{
-text-decoration: none;
-color:brown;
+   text-decoration: none;
+   color:brown;
+   font-size: 20px;
 }
 main{
     display: flex;
     flex-wrap: wrap;
+}
+.comprar{
+    background-color: rgb(6, 6, 7);
+    width: 50%;
+    height: 10%;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
 }
 .zapatillas{
     width: 1200px;
@@ -47,33 +66,66 @@ main{
     grid-gap: 5%;
 }
 .zapatilla_1 {
-    padding-left: 60px;
-    border: solid;
+    padding-left: 75px;
+    border: solid;   
     border-radius: 5%;
+    border-color: rgb(224, 223, 223);
+    padding-right: 30%;
+    padding-bottom: 5%;
+    text-align: center; 
+} 
+.zapatilla_2{
+    padding-left: 75px;
+    border: solid;   
+    border-radius: 5%;
+    border-color: rgb(224, 223, 223);
     padding-right: 30%;
     padding-bottom: 5%;
     text-align: center;
-} 
-.zapatilla_2{
-    padding-left: 60px;
-    border: solid;   
 }
 .zapatilla_3{
-    padding-left: 60px;
+    padding-left: 75px;
     border: solid;
+    border-radius: 5%;
+    padding-right: 30%;
+    border-color: rgb(224, 223, 223);
+    padding-bottom: 5%;
+    text-align: center;
 }
 .zapatilla_4{
-    padding-left: 60px;
+    padding-left: 75px;
     border: solid;
+    border-radius: 5%;
+    border-color: rgb(224, 223, 223);
+    padding-right: 30%;
+    padding-bottom: 5%;
+    text-align: center;
 }
 .zapatilla_5{
-    padding-left: 60px;
+    padding-left: 75px;
     border: solid;
+    border-radius: 5%;
+    border-color: rgb(224, 223, 223);
+    padding-right: 30%;
+    padding-bottom: 5%;
+    text-align: center;
 }
 .zapatilla_6{
-padding-left: 60px;
+    padding-left: 75px;
     border: solid;
-}    
+    border-radius: 5%;
+    border-color: rgb(224, 223, 223);
+    padding-right: 30%;
+    padding-bottom: 5%;
+    text-align: center;
+}   
+.direccion{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px;
+    align-items: center;
+} 
     footer{
     text-align: center;
     margin-top: 50px;
