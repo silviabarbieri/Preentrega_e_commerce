@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Permanent+Marker&display=swap');
+
+*{
+ font-family:"Didact Gothic", sans-serif;   margin: 0%;
+}
+h1{
+    background-color: black;
+    font-family: "Permanent Marker", cursive;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.formulario{
+    display: flex;
+}
+.home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 30px;
+    vertical-align: middle;
+    text-align: center;
+    
+
+}
+footer{
+    text-align: center;
+    margin-top: 50px;
+}

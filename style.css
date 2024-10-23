@@ -35,21 +35,20 @@ h1{
 .envios{
     margin-left: 20px;
 }
-.enviar{
-    color: blue;
-}
 
 ul{
 list-style-type: none;
 display: flex;
 justify-content: space-evenly;
 padding: 15px;
+
 }
 
 .inicio{
    text-decoration: none;
    color:white;
    font-size: 20px;
+   border: none;
 }
 .ofertas{
     text-decoration: none;
@@ -90,7 +89,7 @@ main{
     justify-content: center;
     grid-gap: 5%;
 }
-.zapatilla_1 {
+.zapatilla_1, .zapatilla_2, .zapatilla_3, .zapatilla_4, .zapatilla_5, .zapatilla_6 {
     padding-left: 72px;
     border: solid;   
     border-radius: 5%;
@@ -98,52 +97,7 @@ main{
     padding-right: 30%;
     padding-bottom: 5%;
     text-align: center; 
-} 
-.zapatilla_2{
-    padding-left: 72px;
-    border: solid;   
-    border-radius: 5%;
-    border-color: rgb(224, 223, 223);
-    padding-right: 30%;
-    padding-bottom: 5%;
-    text-align: center;
 }
-.zapatilla_3{
-    padding-left: 72px;
-    border: solid;
-    border-radius: 5%;
-    padding-right: 30%;
-    border-color: rgb(224, 223, 223);
-    padding-bottom: 5%;
-    text-align: center;
-}
-.zapatilla_4{
-    padding-left: 72px;
-    border: solid;
-    border-radius: 5%;
-    border-color: rgb(224, 223, 223);
-    padding-right: 30%;
-    padding-bottom: 5%;
-    text-align: center;
-}
-.zapatilla_5{
-    padding-left: 72px;
-    border: solid;
-    border-radius: 5%;
-    border-color: rgb(224, 223, 223);
-    padding-right: 30%;
-    padding-bottom: 5%;
-    text-align: center;
-}
-.zapatilla_6{
-    padding-left: 72px;
-    border: solid;
-    border-radius: 5%;
-    border-color: rgb(224, 223, 223);
-    padding-right: 30%;
-    padding-bottom: 5%;
-    text-align: center;
-} 
 .off{
     font-size: 15px;
     background-color: dimgrey;
@@ -154,24 +108,32 @@ main{
     margin-top: 10px;
     padding: 6px;
 } 
-h2{
-    text-align: center;
-    margin-top: 5%;
-} 
+.cuotas{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content:center;
+    
+    align-items: center;
+    margin-top: 80px;
+    height: 60px;
+    font-size: large;
+    
+}
 .reseñas{
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 15% 25% 25% 25%;
     justify-content: center;
     grid-gap: 1%;   
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 2%;
+    margin-top: 5%;
 }
 .estrellas{
 display: flex;
 flex-direction: row;
 }
-.reseña-1{
+.reseña-1, .reseña-2, .reseña-3{
     border: solid;
     border-radius: 5%;
     border-color: rgb(224, 223, 223);
@@ -179,31 +141,12 @@ flex-direction: row;
     padding: 10px 10px;
     
 }
-.reseña-2{
-    border: solid;
-    border-radius: 5%;
-    border-color: rgb(224, 223, 223);
-    display: grid;
-    padding: 10px 10px;
-       
-}
-.reseña-3{
-    border: solid;
-    border-radius: 5%;
-    border-color: rgb(224, 223, 223);
-    display: grid;
-    padding: 10px 10px;
-    
-}
-.direccion{
-display: flex;
-flex-direction:column;
-text-align: center;
-} 
 .mapa{
 display: flex;
-justify-content: center;
-align-items: center;   
+flex-direction: row;
+align-items: center;
+margin: 40px;
+justify-content: space-evenly;
 }
 .redes{
     margin-right: 5px;
