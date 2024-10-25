@@ -102,17 +102,6 @@ main{
     padding-bottom: 5%;
     text-align: center; 
 }
-@media screen and (max-width:768px){
-    .zapatillas{
-        display: flex;
-        flex-direction:column;
-        margin-top: auto;
-        margin-bottom: 10%;
-        flex-wrap: wrap;
-        width: 600px;
-    }
-
-}
 .off{
     font-size: 15px;
     background-color: dimgrey;
@@ -154,16 +143,6 @@ flex-direction: row;
     border-color: rgb(224, 223, 223);
     display: grid;
     padding: 10px 10px;
-}
-@media screen and (max-width:768px){
-    .reseña-1{
-        width: auto;
-    }
-      }
-@media screen and (max-width:768px){
-    .reseña-2, .reseña-3{
-        display: none;
-    }
 }
 .mapa{
 display: flex;
