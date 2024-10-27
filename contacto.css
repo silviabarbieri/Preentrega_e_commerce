@@ -20,12 +20,14 @@
     text-align: center;
     
 }
+
 .formulario{
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: center;
     margin: 2%;
  }
+
 input, textarea, button{
     margin: 2%;
     padding: 5%;
@@ -33,6 +35,8 @@ input, textarea, button{
     border-radius: 2%;
     font-size: 16px;
     width: 30em;
+    display: flex;
+    justify-content: center;
 }
 @media screen and (max-width: 680px) {
     input, textarea, button {

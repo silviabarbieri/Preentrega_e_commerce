@@ -131,7 +131,7 @@ main{
 @media screen and (max-width: 768px){
     .cuotas{
         padding-bottom: 5%;
-       
+        text-align: center;
     }
 }
 .reseñas{
