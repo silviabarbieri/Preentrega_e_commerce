@@ -39,6 +39,11 @@ list-style-type: none;
 display: flex;
 justify-content: space-evenly;
 padding: 15px;
+} 
+@media screen and (min-width: 1024px){
+    .carro_cel{
+        display: none;
+    }
 }
 @media screen and (max-width: 768px){
     ul{
@@ -49,13 +54,13 @@ padding: 15px;
         display: none;
     }
 }
-.inicio, .ofertas, .productos, .contacto{
+.inicio, .ofertas, .productos, .contacto ,.carro_cel{
    text-decoration: none;
    color:white;
    font-size: 20px;
    border: none;
 }
-main{
+.main{
     display: flex;
     flex-wrap: wrap;
 }
@@ -180,6 +185,60 @@ justify-content: space-evenly;
 .redes{
     margin-right: 5px;
     margin-top: 5px;
+}
+/* ESTILOS DE LA PAGINA DE CONTACTO*/
+#home{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2%;
+    color: white;
+    text-decoration: none;
+}
+.volver{
+    text-decoration: none;
+    color: white;
+}
+.volver:hover{
+    color: blue;
+}
+.formulario{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2%;
+ }
+
+input, textarea{
+    margin: 2%;
+    padding: 5%;
+    border-color:rgb(224, 223, 223);
+    border-radius: 2%;
+    font-size: 16px;
+    width: 30em;
+    display: flex;
+    justify-content: center;
+}
+.button{
+    margin: 2%;
+    padding: 5%;
+    border-color:rgb(224, 223, 223);
+    border-radius: 2%;
+    font-size: 16px;
+    width: 33em;
+    display: flex;
+    justify-content: center;
+    
+}
+@media screen and (max-width: 680px) {
+    input, textarea, button {
+        font-size: 1.5em;
+        background-color: lightgray;
+        width: 80%;
+        margin: 5%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
     footer{
     text-align: center;
