@@ -1,0 +1,56 @@
+
+    [
+     {
+       "id": 1,
+       "nombre": "Zapatilla Energy",
+       "talle": "Talle: 37, 38, 39, 40",
+       "precio": "$ 7500",
+       "descuento": "20% OFF",
+       "cuotas": "Hasta 6 cuotas s/interes",
+       "imagen": "./assets/zapatilla1.jpg"
+     },
+     {
+       "id": 2,
+       "nombre": "Zapatilla Sunny",
+       "talle": "Talle: 37, 38, 39, 40",
+       "precio": "$ 70000",
+       "cuotas": "Hasta 6 cuotas s/interes",
+       "imagen": "./assets/zapatilla2.jpg"
+     },
+     {
+       "id": 3,
+       "nombre": "Zapatilla Tech",
+       "talle": "Talle: 37, 38, 39, 40",
+       "precio": "$ 65000",
+       "cuotas": "Hasta 6 cuotas s/interes",
+       "imagen": "./assets/zapatilla3 (1).jpg"
+     },
+     {
+       "id": 4,
+       "nombre": "Zapatilla Uncle",
+       "talle": "Talle: 37, 38, 39, 40",
+       "precio": "$ 75000",
+       "descuento": "25% OFF",
+       "cuotas": "Hasta 6 cuotas s/interes",
+       "imagen": "./assets/zapatilla4.jpg"
+     },
+     {
+       "id": 5,
+       "nombre": "Zapatilla Momi",
+       "talle": "Talle: 37, 38, 39, 40",
+       "precio": "$ 65000",
+       "descuento": "25% OFF",
+       "cuotas": "Hasta 6 cuotas s/interes",
+       "imagen": "./assets/zapatilla5.jpg"
+     },
+     { 
+       "id": 6,
+       "nombre": "Zapatilla Sister",
+       "talle": "Talle: 37, 38, 39, 40",
+       "precio": "$ 80000",
+       "cuotas": "Hasta 6 cuotas s/interes",
+       "imagen": "./assets/zapatilla6.jpg"
+     }
+   ]
+ 
+ 
