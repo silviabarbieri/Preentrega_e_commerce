@@ -4,7 +4,7 @@
        "id": 1,
        "nombre": "Zapatilla Energy",
        "talle": "Talle: 37, 38, 39, 40",
-       "precio": "$ 7500",
+       "precio": "$ 75000",
        "descuento": "20% OFF",
        "cuotas": "Hasta 6 cuotas s/interes",
        "imagen": "./assets/zapatilla1.jpg"

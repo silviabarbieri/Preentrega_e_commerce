@@ -1,28 +1,18 @@
-//fetch("./productos.json")
-//.then((response) => {
-  // console.log(response);
- // if (!response.ok) {
-  //  throw new Error(`${response.status}`);
-  //}
-  //return response.json();
-//})
-//.then((productos) => {
- // const section = document.querySelector("section");
-  //section.innerHTML = "";
-  productos.forEach((productos) => {
-    const html = `
-          <article>
-              <h2>${productos.title}</h2>
-              <p>${productos.body}</p>
-              <img src="${productos.image}" alt="${productos.title}">
-          </article>
-      `;
-    section.innerHTML += html;
-  });
-})
-.catch((error) => {
-  console.log(error);
-});
+
+const carrito = JSON.parse(localStorage.getItem("carrito")) || [];
+// console.log(carrito, typeof carrito);
+const { id, nombre, precio } = productos[1];
+// console.log(id, nombre, precio)
+const producto = {
+  id: id,
+  nombre: nombre,
+  precio: precio,
+  cantidad: 1,
+};
+console.log(producto);
+carrito.push(producto);
+console.log(carrito);
+localStorage.setItem("carrito", JSON.stringify(carrito));
 
   
  

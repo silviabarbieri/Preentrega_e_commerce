@@ -11,20 +11,27 @@
         <h1>TechSports</h1>
         <nav>
             <ul>
-                <li><a href="index.html" class="inicio">INICIO</a></li>
-                <li><a href="productos.html" class="productos">PRODUCTOS</a></li>
-                <li><a href="ofertas.html" class="ofertas">OFERTAS</a></li>
-                <li><a href="contacto.html" class="contacto">CONTACTO</a></li>
-                <li><a href="carrito.html" class="carro_cel">CARRITO</a></li>
+                <li><a href="index.html" class="volver">Volver</a></li>
+                <li><a href="productos.html" class="productos">CARRITO</a></li>
                 <li><a href="carrito.html"><i class="fa-solid fa-cart-shopping fa-xl" style="color: white;" id="carro"></i></a></li>
             </ul>
         </nav>
     </header>
-   
+    <main>
+      <section class="lista-carrito">
+      </section>
+      <section class="resumen">
+        <p id="cantidad-productos">Cantidad de productos: 0</p>
+        <p id="total-precio">Total a pagar: $0</p>
+        <button id="finalizar-compra" class="boton-finalizar">Finalizar Compra</button>
+    </section>
+    
+  </main>
     <footer>
         Silvia Barbieri 2024
     </footer>
     <script src="https://kit.fontawesome.com/13c21332cc.js" crossorigin="anonymous"></script>
     <script src="js/carrito.js"></script>
+    
 </body>
 </html>
