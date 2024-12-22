@@ -70,3 +70,13 @@ function agregarAlCarrito(event) {
   localStorage.setItem('carrito', JSON.stringify(carrito));
   alert(`${producto.nombre} se ha agregado al carrito.`);
 }
+  
+//MENU HAMBURGUESA
+document.addEventListener('DOMContentLoaded', () => {
+  const menuToggle = document.getElementById('menuToggle');
+  const menu = document.getElementById('menu');
+
+  menuToggle.addEventListener('click', () => {
+      menu.classList.toggle('show'); // Muestra u oculta el menú
+  });
+});
